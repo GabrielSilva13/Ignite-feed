@@ -1,0 +1,13 @@
+.header {
+  background: var(--gray-800);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.25rem 0;
+}
+:is(.header strong) {
+  font-size: 1.625rem;
+  font-weight: 700;
+  line-height: 41px;
+  margin-left: 15px;
+}
